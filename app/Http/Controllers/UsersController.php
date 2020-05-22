@@ -13,6 +13,7 @@ class UsersController extends Controller
 
     public function login() {
         return view('users.login');
+        print_r('ayush');
 
     }
 
